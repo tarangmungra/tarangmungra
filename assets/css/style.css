@@ -303,6 +303,7 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -693,6 +694,31 @@ section {
   padding: 0;
 }
 
+.p-font{
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.show-btn{
+
+  padding: 5px;
+  color: white;
+  background-color: #149ddd;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 15px;
+  border: 2px solid;
+}
+
+.show-btn:hover{
+
+  color: #149ddd;
+  background-color: transparent;
+  border: #149ddd 2px solid;
+  transition: 0.2s;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/

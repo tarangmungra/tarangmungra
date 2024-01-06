@@ -1,0 +1,578 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.bg-img1{
+    background-image: url(image/img3.jpg);
+    background-size: 100% 100%;
+}
+.bg-img2{
+    background-image: url(image/img2.jpg);
+
+    background-size: 100% 100%;
+}
+.bg-img3{
+    background-image: url(image/img1.jpg);
+    
+    background-size: 100% 100%;
+}
+
+.bg-img-txt{
+    font-size: 8vh;
+}
+.bg-img-txt2{
+    font-size: 3vh;
+}
+.bg-img-btn{
+    background-color: red;
+    font-size: 3vh;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar-upper{
+    height: 100px;
+    position: -webkit-sticky;
+   position: sticky;
+  top: 0;
+}
+.nav-txt li a{
+   
+    color: white;
+}
+.drop-btn li a{
+    color: black;
+}
+.drop-btn li a:hover{
+    color: orangered;
+}
+
+.btn-3{
+    background-color: transparent;
+    color: rgb(252, 96, 32);
+    padding: 8px 16px;
+    border: 2px solid rgb(252, 96, 32);
+    transition: .5s;
+}
+
+.btn-3:hover{
+
+ background-color: rgb(252, 96, 32);
+ color: white;
+}
+
+.nav-btn{
+    font-size: 1.5rem;
+    background-color: orangered;
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sevice-list{
+    background-color: rgb(212, 211, 211);
+}
+.sevice-list1{
+    background-color: white;
+}
+.service-txt1{
+    color: gray;
+    font-size: 1.5rem;
+}
+.service-txt2{
+    color: black;
+    font-size: 2rem;
+}
+.card-icon{
+    color: gray;
+    font-size: larger;
+    padding: 10px;
+}
+.card-ttl:hover{
+    color: orangered;
+}
+.card-ttl{
+    color: black;
+}
+.box-white{
+
+    background-color: rgb(251, 241, 241);
+    color: black;
+    box-shadow: 0px 0px 21px 0px rgb(28 30 35 / 13%);
+    transition: 0.5s ;
+    
+    }
+    
+
+.sec3-txt1{
+    font-size: large;
+    color: gray;
+}
+.sec-3-txt2{
+    font-size: xx-large;
+    color: black;
+}
+.sec3-txt3{
+    font-size: larger;
+    color: rgb(238, 16, 16);
+}
+.sec3-txt4{
+    font-size: medium;
+    color: gray;
+}
+.sec3-txt5{
+    font-size: large;
+    color: black;
+}
+.sec3-txt6{
+    font-size: large;
+    color: gray;
+}
+.sec3-txt7 img{
+    border: none;
+    border-radius:50%;
+}
+
+.sec3-img1{
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+}
+.sec3-img2{
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+}
+
+.sec3-slid a{
+    display: block;
+    width: 100%;
+    height: 6px;
+    position: relative;
+    transition: all .35s;
+    background-color: rgb(226, 221, 221);
+  }
+  
+ .sec3-slid a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #030303;
+    transition: all 5s;
+  }
+  
+  .sec3-slid a:hover:after{
+    width: 80%;
+  }
+
+.sec4-count{
+    border-bottom: 4px solid rgb(86, 82, 82);
+}
+.sec4-count-txt1{
+    font-size: 50px;
+    color: white;
+    position: relative;
+}
+.sec4-count-txt2{
+    font-size: 1.2rem;
+    color: gray;
+}
+.mark{
+    position: absolute;
+    top: 0;
+    right:22%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(220, 53, 69);
+  }
+  @media screen and (max-width:1024px) {
+    .mark{
+      right: 0;
+    }
+  }
+  @media screen and (max-width:768px) {
+        .mark{
+          right: 10%;
+        }
+  }
+  @media screen and (max-width:425px) {
+        .mark{
+          right:10%;
+        }
+  }
+  @media screen and (max-width:375px) {
+        .mark{
+          right: 0;
+        }
+  }
+  @media screen and (max-width:320px) {
+        .mark{
+          right:0;
+        }
+  }
+.sec4-case-txt1{
+      color: gray;
+      font-size: larger;
+}
+.sec4-case-txt2{
+    color: white;
+    font-size: xx-large;
+}
+.sec4-col2{
+    margin: 16px 0px;
+}
+
+
+
+.card1{
+    position: relative;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+  }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 10px;
+    width: 10px;
+    opacity: 0;
+    transition: 1s ease;
+    background-color:rgb(228, 25, 25);
+    border: none;
+    border-radius: 15px;
+  }
+  .card1:hover .overlay {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+  }
+
+
+.card-body{
+    border: none;
+    border-radius: 15px;
+    color:black;
+    font-size: 1.2rem;
+    background-color:rgb(251, 241, 241);
+    margin-top: 2vh;
+}
+.card-body1:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    background: none;
+}
+.sec5-txt1{
+    color:rgb(101, 98, 98);
+    font-size: larger;
+}
+.sec5-txt2{
+    color:black;
+    font-size: 8vh;
+}
+.sec5-txt3{
+    color:rgb(101, 98, 98);
+    font-size: larger;
+}
+.sec5-img{
+    border: none;
+    border-radius: 15px;
+}
+.sec6-txt1{
+    color:rgb(101, 98, 98);
+    font-size: larger;
+}
+.sec6-txt2{
+    color:black;
+    font-size: 7vh;
+}
+.sec6-txt3:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+.card2{
+    position: relative;
+  }
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 10px;
+    width: 10px;
+    opacity: 0;
+    transition: 1s ease;
+    background-color:rgb(228, 25, 25);
+    border: none;
+    border-radius: 15px;
+  }
+  .card2:hover .overlay2 {
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+  }
+
+.sec7-img{
+    border: none;
+    border-radius: 15px;
+}
+.sec7-txt1{
+    color:rgb(101, 98, 98);
+}
+.sec7-txt2{
+    color:black;
+    font-size: 7vh;
+}
+.sec7-txt3{
+    color:rgb(159, 156, 156);
+    font-size: large;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.sec7-txt4{
+    color:rgb(159, 156, 156);
+    font-size: larger;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.sec7-txt5{
+    color: black;
+    font-size: large;
+}
+.sec7-txt6{
+    color: rgb(82, 79, 79);
+    font-size: medium;
+    background-color: rgb(230, 229, 229);
+}
+ .sec8-part1{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: 2;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(249, 246, 246);
+    box-shadow: 14px -15px 0px -1px rgba(255, 215, 215, 0.6);
+ }
+ @media screen and (max-width:768px) {
+    .sec8-part1{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        z-index: 2;
+    }
+ }
+ @media screen and (max-width:425px) {
+    .sec8-part1{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 2;
+        color: rgb(5, 5, 5);
+        background-color: rgba(7, 7, 7, 0.9);
+    }
+ }
+
+ .sec8-part1-txt1{
+    color: black;
+ }
+ .sec8-part1-txt2{
+     color: rgb(205, 205, 43);
+ }
+ .sec8-part1-txt3{
+    color:rgb(113, 110, 110);
+    font-size: large;
+ }
+ .sec8-part1-txt4{
+    color:rgb(54, 52, 52);
+    font-size: large;
+    word-spacing: 3px;
+ }
+ .sec8-part2{
+    position: absolute;
+    top: 0;
+    right: 7%;
+    z-index: 1;
+    flex-wrap: wrap;
+ }
+ @media screen and (max-width:768px) {
+    .sec8-part2{
+        position: absolute;
+        top:0%;
+        right:0%;
+        z-index: 1;
+    }
+ }
+ @media screen and (max-width:425px) {
+    .sec8-part2{
+        position: absolute;
+        top:26%;
+        right:0%;
+        z-index: 1;
+    }
+ }
+ .sec8-icon1{
+    font-size: x-large;
+    color: orangered;
+ }
+ .sec8-icon2{
+    font-size: x-large;
+    color: orangered;
+ }
+ .sec9-icon{
+    color: orangered;
+ }
+ .sec9-txt1{
+    font-size: larger;
+    color:rgb(113, 110, 110);
+ }
+ .sec9-txt2{
+    font-size: 7vh;
+    color: black;
+ }
+
+ .sec9-txt3{
+    font-size: large;
+ }
+ .sec9-txt3:hover{
+    color: orangered;
+    cursor: pointer;
+ }
+
+ .sec9-txt4{
+    font-size: medium;
+ }
+ .sec9-txt4:hover{
+    color: orangered;
+    cursor: pointer;
+ }
+ .sec9-btn{
+    background-color: black;
+    color: white;
+ }
+ .sec9-btn:hover{
+    background-color: orangered;
+    color: white;
+ }
+
+
+ .card3{
+    position: relative;
+  }
+  .image3 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+  }
+  .overlay3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 10px;
+    width: 10px;
+    opacity: 0;
+    transition: 1s ease;
+    background-color:rgb(228, 25, 25);
+    border: none;
+    border-radius: 15px;
+  }
+  .card3:hover .overlay3 {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+  }
+
+
+ .sec10-pat1{
+    border-bottom: 1px solid red;
+ }
+.sec10-txt1{
+    font-size: large;
+    color:rgb(113, 110, 110);
+}
+.sec10-txt2{
+    font-size:larger;
+    color: white;
+}
+
+.col2-txt1{
+    color: white;
+    font-size: 2rem;
+}
+.sec10-col2 ul{
+       list-style-type: none;
+}
+.sec10-col2 li a{
+       text-decoration: none;
+       color: white;
+       font-size: larger;
+}
+.sec10-col2 li a:hover{
+       text-decoration: underline;
+       color:orangered;
+}
+.col3-txt1{
+    color: white;
+    font-size: 2rem;
+}
+.col3-txt2{
+    color: gray;
+    font-size: large;
+}
+.col3-txt3{
+    color:rgb(224, 10, 10);
+    font-size: larger;
+}
+.col3-txt3:hover{
+    color:white;
+    font-size: larger;
+}
+.col3-txt4{
+    color:rgb(224, 10, 10);
+    font-size: larger;
+}
+
+.col3-txt4:hover{
+    color:white;
+    font-size: larger;
+}
+
+.col3-txt5 i{
+    font-size: x-large;
+}
+.col3-txt5 i:hover{
+    color: orangered;
+}

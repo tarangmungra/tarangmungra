@@ -1,0 +1,326 @@
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+.text{
+
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.text:hover{
+
+    color: #56c5e9;
+}
+
+.bg-back{
+    background-color: rgb(254, 71, 0);
+   
+}
+
+.back-img{
+    background-image: url(home_page.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.back-img h1{
+    font-family: 'Nunito', sans-serif;
+
+}
+.head-text{
+
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 4px;
+   
+
+}
+
+.back-img h5{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+
+}
+
+.row-align{
+
+    transform: translateY(-45%);
+}
+@media screen and (max-width: 995px) {
+    
+    .row-align{
+
+    transform: translateY(0%);
+
+    }
+}
+.btn-1{
+
+    background-color: rgb(253, 184, 24);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    padding: 10px;
+    transition: .5s;
+    border: 2px solid rgb(253, 184, 24);
+
+}
+
+.btn-1:hover{
+
+    background-color: transparent;
+    border: 2px solid rgb(253, 184, 24);
+
+}
+.box{
+    font-family: 'Nunito', sans-serif;
+    color: white;  
+}
+
+.box h4{
+    font-size: 30px;
+}
+
+.box-1{
+
+    background-color: rgb(252, 96, 32);
+
+}
+.box-2{
+
+    background-color: rgb(86, 197, 233);
+
+}
+.box-3{
+
+    background-color: rgb(181, 221, 96);
+
+}
+
+
+
+
+.btn-2{
+
+    color: white;
+    border: none;
+    background-color: transparent;
+    transition: .5s;
+    font-size: 18px;
+
+}
+
+.btn-2:hover{
+
+    color: black;
+}
+
+.text-2{
+
+    font-weight: 600;
+}
+
+.btn-3{
+    background-color: transparent;
+    color: rgb(252, 96, 32);
+    padding: 8px 16px;
+    border: 2px solid rgb(252, 96, 32);
+    transition: .5s;
+}
+
+.btn-3:hover{
+
+ background-color: rgb(252, 96, 32);
+ color: white;
+}
+
+.back-img2{
+    background-image: url(call_to_action_bg.jpg);
+    height: auto;
+    background-size: cover;
+    text-align: center;
+    color: white;
+   
+}
+
+.back-img2 h1{
+
+    font-size: 55px;
+    margin-top: 90px;
+}
+
+.btn-4{
+
+    background-color: rgb(252, 96, 32);
+    color: white;
+    border: 2px solid rgb(252, 96, 32);
+    padding: 8px 16px;
+    transition: .5s;
+    margin-bottom: 50px;
+
+}
+
+.btn-4:hover{
+
+    background-color: transparent;
+    color: rgb(252, 96, 32);
+    border: 2px solid rgb(252, 96, 32);
+    
+}
+.back-img3{
+
+    background-image: url(video-bg.jpg);
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.icon{
+
+    color: rgb(86, 197, 233);
+    transition: .5s ;
+}
+
+.icon:hover{
+
+    color: yellow;
+}
+
+.align-i{
+
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+i{
+
+    padding: 5px;
+    transition: .5s;
+}
+
+.face{
+
+    color: #3b5998;
+    padding-bottom: 25px;
+
+}
+
+.google{
+
+    color: #dd4b39;
+
+}
+
+.in{
+
+color: #007bb6; 
+
+
+}
+
+.twitter{
+
+    color: #00aced;
+
+}
+
+i:hover{
+
+    transform: translateY(-8px);
+}
+
+@media screen and (max-width: 575px) {
+    
+   .box-hover h5{
+
+    font-size: 28px;
+   }
+   .box-hover p{
+
+    font-size: 20px;
+   }
+ }
+
+.box-hover:hover{
+
+    border: 2px solid red;
+}
+
+.back-img4{
+
+    background-image: url(pricetable-bg.jpg);
+    height: 65vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    
+   .back-img4{
+    height: auto;
+
+
+   }
+}
+.box-white{
+
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 21px 0px rgb(28 30 35 / 13%);
+    transition: 0.5s ;
+
+}
+
+.box-white:hover{
+
+    transform: scale(1.05);
+    border: 2px solid black;
+
+}
+
+.btn-5{
+    background-color: transparent;
+    color: rgb(181, 221, 96);
+    padding: 8px 16px;
+    border: 2px solid rgb(181, 221, 96);
+    transition: .5s;
+}
+
+.btn-5:hover{
+
+ background-color: rgb(181, 221, 96);
+ color: white;
+}
+
+.btn-6{
+    background-color: transparent;
+    color: rgb(86, 197, 233);
+    padding: 8px 16px;
+    border: 2px solid rgb(86, 197, 233);
+    transition: .5s;
+}
+
+.btn-6:hover{
+
+ background-color: rgb(86, 197, 233);
+ color: white;
+}
+
+@media screen and (max-width: 995px) {
+    
+    .margin-box{
+
+        margin-top: 25px;
+    }
+ }
+
