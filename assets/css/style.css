@@ -239,10 +239,10 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  
   height: 100vh;
   background: url("18.MUNGRA\ TARANG\ HASMUKHBHAI-01.jpeg") top center;
-  background-size: contain;
+  background-size: cover;
 }
 
 #hero:before {
